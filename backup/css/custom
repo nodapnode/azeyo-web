@@ -1,0 +1,8 @@
+#randomgag{
+	margin: 0px auto;
+	padding: 10px;
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+	font-size: 10pt;
+	color: black;
+}
