@@ -6,12 +6,12 @@ var connection = mysql.createConnection({
   host     : '127.0.0.1',
   user     : 'root',
   password : '',
-  database : 'cost'
+  database : 'nodapnode'
 });
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  connection.query('SELECT * FROM contents', function(err, rows, fields) {
+  connection.query('SELECT * FROM azeyogag', function(err, rows, fields) {
     if (err) throw err;
     res.send(rows);
   });
